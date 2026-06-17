@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api'
+  baseURL: 'https://es2-tp2-web-service.onrender.com/api'
 });
 
 export const pacienteService = {
